@@ -3,7 +3,7 @@ class Car
   attr_accessor :wheel_size, :wheel_number
 
   def initialize(wheel_size, wheel_number)
-    @wheel_size = size
+    @wheel_size = "small"
     @wheel_number = number
   end
 end
